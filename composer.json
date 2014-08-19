@@ -1,0 +1,45 @@
+{
+	"name":"bit3/contao-assetic-autoprefixer-filter",
+	"description":"Autoprefixer asset filter for Contao OpenSource CMS",
+	"keywords":["contao", "assets", "autoprefixer"],
+	"type":"contao-module",
+	"homepage":"http://bit3.de",
+	"license":"LGPL-3.0+",
+	"authors":[
+		{
+			"name":"Tristan Lins",
+			"email":"tristan.lins@bit3.de",
+			"homepage":"http://bit3.de",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"email":"info@bit3.de",
+		"issues":"https://github.com/bit3/contao-assetic-autoprefixer-filter/issues",
+		"wiki":"https://github.com/bit3/contao-assetic-autoprefixer-filter/wiki",
+		"irc":"irc://irc.freenode.org/contao.theme+",
+		"source":"https://github.com/bit3/contao-assetic-autoprefixer-filter"
+	},
+	"require":{
+		"php":">=5.3",
+		"contao/core":">=3.2,<3.4-dev",
+		"bit3/contao-assetic": "~2.0",
+		"bit3/assetic-autoprefixer": "~1.0"
+	},
+	"autoload":{
+		"psr-4": {
+			"Bit3\\Contao\\Assetic\\Autoprefixer\\": "src"
+		}
+	},
+	"extra":{
+		"contao": {
+			"sources":{
+				"system/modules/assetic-autoprefixer-filter": "system/modules/assetic-autoprefixer-filter"
+			}
+		},
+		"branch-alias": {
+			"dev-master": "1.0.x-dev",
+			"dev-develop": "1.1.x-dev"
+		}
+	}
+}

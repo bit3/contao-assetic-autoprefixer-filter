@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+  <file original="system/modules/assetic-autoprefixer-filter/languages/en/assetic.xlf" source-language="en">
+    <body>
+      <trans-unit id="assetic.autoprefixer">
+        <source>Autoprefixer (CSS)</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
